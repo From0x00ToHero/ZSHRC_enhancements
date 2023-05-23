@@ -4,7 +4,7 @@ echo -e "\n[!] Creando directorio para funciones custom"
 mkdir /usr/share/zsh/functions/custom && cd "$_" &>/dev/null
 sleep 0.75
 echo -e "\n[!] Descargando el archivo de Github"
-wget https://raw.githubusercontent.com/From0x00ToHero/cleardocker-function/main/cleardocker &>/dev/null
+wget https://raw.githubusercontent.com/From0x00ToHero/ZSHRC_enhancements/main/function-cleardocker/cleardocker &>/dev/null
 chmod +x cleardocker &>/dev/null
 sleep 0.75
 echo -e "\n[!] Añadiendo el directorio al FPATH en ~/.zshrc"
