@@ -2,6 +2,6 @@ export WD=$(cat /tmp/workdirectory.tmp)
 
 function mkt(){
   mkdir {nmap,content,exploits,scripts}
-  echo $PWD  /tmp/workdirectory.tmp
+  echo $PWD > /tmp/workdirectory.tmp
   export WD=$(cat /tmp/workdirectory.tmp)
 }
