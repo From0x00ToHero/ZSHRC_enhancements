@@ -1,4 +1,4 @@
-# cleardocker-function
+# Function-cleardocker
 Función para limpiar el entorno de trabajo de Docker.
 
 Para instalar esta función tan solo es necesario descargar y ejecutar el archivo 'install.sh' como root.
