@@ -1,0 +1,7 @@
+export WD=$(cat tmpworkdirectory.tmp)
+
+function mkt(){
+  mkdir {nmap,content,exploits,scripts}
+  echo $PWD  tmpworkdirectory.tmp
+  export WD=$(cat tmpworkdirectory.tmp)
+}
