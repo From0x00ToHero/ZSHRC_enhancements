@@ -1,4 +1,6 @@
-export WD=$(cat /tmp/workdirectory.tmp)
+if [ -f "/tmp/workdirectory.tmp" ]; then
+  export WD=$(cat /tmp/workdirectory.tmp)
+fi
 
 function mkt(){
   mkdir {nmap,content,exploits,scripts}
